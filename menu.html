@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Canteen Menu</title></head>
+<body>
+<h2>Today's Menu</h2>
+<ul>
+    {% for item in menu %}
+        <li>{{ item.item }} - ₹{{ item.price }}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
