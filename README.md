@@ -5,6 +5,7 @@ The Smart Student Complaint Management System is a web-based application designe
 The system improves transparency, reduces manual effort, and ensures accountability by allowing real-time status tracking and admin responses.
 
 🎯 Objectives
+
 To digitize the traditional student complaint process
 To reduce manual paperwork and delays
 To ensure faster and transparent complaint resolution
