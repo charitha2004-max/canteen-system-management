@@ -11,18 +11,22 @@ To reduce manual paperwork and delays
 To ensure faster and transparent complaint resolution
 To provide real-time complaint tracking
 To improve communication between students and administrators
+
 🧑‍🎓 Student Features
+
 Secure login and registration
 Submit complaints with title, description, and category
 Upload attachments (image / PDF if enabled)
 View complaint status (Pending / In-Progress / Resolved)
 View admin responses and resolution details
 Transparent tracking of complaint history
+
 👨‍💼 Admin Features
+
 Secure admin login
 View all complaints submitted by students
 Separate views for:
-All Complaints
+All Complaints    
 Pending Complaints
 In-Progress Complaints
 Resolved Complaints
@@ -37,7 +41,9 @@ Complaint is stored in MongoDB
 Admin reviews the complaint
 Admin updates status and adds response
 Student views updated status and admin response
+
 🧠 AI-Based Features
+
 Complaint Summarization:
 Automatically generates a short summary of complaint descriptions to reduce admin reading time.
 
@@ -56,11 +62,13 @@ Node.js
 Express.js
 Database
 MongoDB
+
 🧪 Algorithms & Logic Used
 Rule-based logic for complaint categorization
 AI-assisted logic for complaint summary generation
 AI-assisted logic for priority assignment
 REST API-based CRUD operations
+
 🗃️ Database Design (MongoDB)
 Each complaint record contains:
 
@@ -73,12 +81,15 @@ Status
 Admin Response
 Created Date
 Updated Date
+
 📊 Result Analysis
+
 Complaints are successfully submitted and stored
 Admin updates reflect instantly for students
 Improved transparency in complaint handling
 Reduced response time compared to manual systems
 Organized complaint tracking using status-based views
+
 🚀 How to Run the Project
 Prerequisites
 Node.js installed
@@ -95,6 +106,7 @@ Start backend server:
 node index.js
 
 Open frontend HTML files in browser
+
 🔮 Future Enhancements
 Mobile application integration
 Email / SMS notifications
